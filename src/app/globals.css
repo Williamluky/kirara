@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: #f8f5f2;
+  color: #000000;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: #e17b98;
+}
+
+.text-sakura-dark { color: #e17b98; }
+.text-sakura-light { color: #ffe4ec; }
+.text-skin-dark { color: #000000; }
+.bg-sakura { background-color: #fbb1c8; }
+.bg-sakura-dark { background-color: #e17b98; }
+.bg-sakura-light { background-color: #ffe4ec; }
+.bg-skin-light { background-color: #f8f5f2; }
+.bg-skin-warm { background-color: #f5e6d3; }
+.bg-brand-background { background-color: #f8f5f2; }
