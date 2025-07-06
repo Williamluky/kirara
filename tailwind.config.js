@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Prior World inspired palette
-        prior: {
+        // Elegant color palette
+        elegant: {
           white: '#ffffff',
           light: '#fafafa',
           dark: '#1a1a1a',
@@ -34,7 +34,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        'prior': ['Georgia', 'Times New Roman', 'serif'],
+        'elegant': ['Georgia', 'Times New Roman', 'serif'],
         'display': ['Georgia', 'Times New Roman', 'serif'],
         'body': ['Georgia', 'Times New Roman', 'serif'],
         'sans': ['Arial', 'Helvetica', 'sans-serif'],

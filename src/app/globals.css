@@ -41,7 +41,7 @@ body {
   letter-spacing: 0.01em;
 }
 
-/* Prior World inspired typography */
+/* Elegant typography */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Georgia', 'Times New Roman', serif;
   color: #1a1a1a;
@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.02em;
 }
 
-/* Large display headings like Prior World */
+/* Large display headings */
 .display-heading {
   font-family: 'Georgia', 'Times New Roman', serif;
   font-weight: 300;
@@ -72,13 +72,13 @@ img {
   height: auto;
 }
 
-/* Custom color classes - Prior World inspired palette */
-.text-prior-dark { color: #1a1a1a; }
-.text-prior-light { color: #666666; }
-.text-prior-accent { color: #8b7355; }
-.bg-prior-white { background-color: #ffffff; }
-.bg-prior-light { background-color: #fafafa; }
-.bg-prior-accent { background-color: #8b7355; }
+/* Custom color classes */
+.text-dark { color: #1a1a1a; }
+.text-light { color: #666666; }
+.text-accent { color: #8b7355; }
+.bg-white { background-color: #ffffff; }
+.bg-light { background-color: #fafafa; }
+.bg-accent { background-color: #8b7355; }
 
 /* Legacy sakura colors for compatibility */
 .text-sakura-dark { color: #e17b98; }
@@ -116,8 +116,8 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Prior World inspired button styles */
-.btn-prior {
+/* Elegant button styles */
+.btn-elegant {
   font-family: 'Georgia', 'Times New Roman', serif;
   font-weight: 300;
   letter-spacing: 0.05em;
@@ -129,7 +129,7 @@ html {
   transition: all 0.3s ease;
 }
 
-.btn-prior:hover {
+.btn-elegant:hover {
   background: #1a1a1a;
   color: #ffffff;
 }

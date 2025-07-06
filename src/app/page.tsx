@@ -2,24 +2,24 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-prior-white">
+    <div className="min-h-screen bg-elegant-white">
       {/* Navigation Bar */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-prior-white/90 backdrop-blur-md border-b border-prior-light/30">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-elegant-white/90 backdrop-blur-md border-b border-elegant-light/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12">
           <div className="flex items-center justify-center h-16 sm:h-20">
-            <h1 className="display-heading text-2xl sm:text-3xl md:text-4xl text-prior-dark">
+            <h1 className="display-heading text-2xl sm:text-3xl md:text-4xl text-elegant-dark">
               KIRARA
             </h1>
           </div>
         </div>
       </nav>
 
-      {/* Hero Section - Prior World inspired */}
-      <section className="relative min-h-screen bg-prior-white pt-16 sm:pt-20">
+      {/* Hero Section */}
+      <section className="relative min-h-screen bg-elegant-white pt-16 sm:pt-20">
         <div className="relative z-10 px-4 sm:px-8 lg:px-12 max-w-7xl mx-auto w-full">
           {/* Hero Header */}
           <div className="pt-20 sm:pt-24 lg:pt-32 pb-16 lg:pb-20 text-center">
-            <div className="w-24 sm:w-32 lg:w-40 h-px bg-prior-dark mx-auto mb-12 lg:mb-16"></div>
+            <div className="w-24 sm:w-32 lg:w-40 h-px bg-elegant-dark mx-auto mb-12 lg:mb-16"></div>
           </div>
 
           {/* Main Content */}
@@ -27,10 +27,10 @@ export default function Home() {
             {/* Left Side - Product Image */}
             <div className="relative flex items-center justify-center order-1 lg:order-1 mb-16 lg:mb-0">
               {/* Subtle background texture */}
-              <div className="absolute inset-0 bg-prior-light opacity-20 rounded-3xl transform scale-110"></div>
+              <div className="absolute inset-0 bg-elegant-light opacity-20 rounded-3xl transform scale-110"></div>
               
               {/* Main Product Image */}
-              <div className="relative aspect-square rounded-3xl shadow-xl overflow-hidden bg-prior-white z-10 w-[320px] h-[320px] sm:w-[420px] sm:h-[420px] md:w-[520px] md:h-[520px] lg:w-[580px] lg:h-[580px] xl:w-[640px] xl:h-[640px] flex items-center justify-center transform hover:scale-105 transition-transform duration-700 ease-out">
+              <div className="relative aspect-square rounded-3xl shadow-xl overflow-hidden bg-elegant-white z-10 w-[320px] h-[320px] sm:w-[420px] sm:h-[420px] md:w-[520px] md:h-[520px] lg:w-[580px] lg:h-[580px] xl:w-[640px] xl:h-[640px] flex items-center justify-center transform hover:scale-105 transition-transform duration-700 ease-out">
                 <Image
                   src="/kirara-lotion.jpeg"
                   alt="Kirara Signature Body Lotion"
@@ -43,11 +43,11 @@ export default function Home() {
 
             {/* Right Side - Product Info */}
             <div className="text-center lg:text-left order-2 lg:order-2">
-              <h2 className="display-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-8 lg:mb-12 text-prior-dark leading-tight">
+              <h2 className="display-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl mb-8 lg:mb-12 text-elegant-dark leading-tight">
                 Signature Body Lotion
               </h2>
               
-              <p className="body-text text-lg sm:text-xl md:text-2xl mb-12 lg:mb-16 text-prior-light leading-relaxed max-w-2xl mx-auto lg:mx-0">
+              <p className="body-text text-lg sm:text-xl md:text-2xl mb-12 lg:mb-16 text-elegant-light leading-relaxed max-w-2xl mx-auto lg:mx-0">
                 Immerse yourself in the delicate fragrance of cherry blossoms with our 
                 premium body lotion. Enriched with natural moisturizers and sakura extract, 
                 it provides long-lasting hydration while leaving your skin with a subtle, 
@@ -58,7 +58,7 @@ export default function Home() {
                 href="https://shopee.co.id/Kirara-Tone-Brightening-Lotion-New-FORMULA-Green-Caviar-Extract-100-ml-i.1535422870.42600156189" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="btn-prior text-sm sm:text-base inline-flex items-center space-x-3 px-8 py-4 hover:bg-prior-dark hover:text-prior-white transition-all duration-300 ease-out"
+                className="btn-elegant text-sm sm:text-base inline-flex items-center space-x-3 px-8 py-4 hover:bg-elegant-dark hover:text-elegant-white transition-all duration-300 ease-out"
               >
                 <span>Shop Now</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -70,17 +70,17 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Elegant Footer - Prior World inspired */}
-      <footer className="py-16 sm:py-20 text-center bg-prior-light">
+      {/* Elegant Footer */}
+      <footer className="py-16 sm:py-20 text-center bg-elegant-light">
         <div className="max-w-4xl mx-auto px-4 sm:px-8">
-          <p className="body-text text-sm sm:text-base text-prior-light mb-4">
+          <p className="body-text text-sm sm:text-base text-elegant-light mb-4">
             © 2025 Kirara. Crafted with elegance and care.
           </p>
           <a 
             href="https://www.instagram.com/kirara_beautycare/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="body-text text-sm sm:text-base text-prior-light hover:text-prior-dark transition-colors duration-300 inline-flex items-center space-x-2"
+            className="body-text text-sm sm:text-base text-elegant-light hover:text-elegant-dark transition-colors duration-300 inline-flex items-center space-x-2"
           >
             <span>Follow us on Instagram</span>
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
